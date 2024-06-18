@@ -96,7 +96,7 @@ alle posts op, maar alleen de informatie over die éne post die we willen weerge
    weergeven van de data, mocht er onverhoopt een leeg object terugkomen.
 4. Zorg ervoor dat er een passende foutmelding weergegeven wordt op de pagina wanneer het ophalen van de data mislukt.
 
-## Opdracht 3 - Formulier werkend maken
+## Opdracht 4 - Formulier werkend maken
 
 We hebben ons formulier natuurlijk al zo opgebouwd dat alle juiste informatie in een object verzameld wordt wanener de
 gebruiker het formulier submit. Er wordt echter niets verzonden... Dus ook daar gaan we verandering in brengen! Omdat
@@ -114,3 +114,4 @@ dit request getriggerd wordt op basis van een submit-event, hoef je hier geen ef
 
 ## Bonusopdracht
 * Zorg ervoor dat de gebruiker posts kan verwijderen doormiddel van een 'delete'-knop op de detailpagina.
+* Zorg ervoor dat ook alle loading-states worden gecommuniceerd met de gebruiker (dit kun je testen door in "Network" je internetsnelheid te verlagen)
