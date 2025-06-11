@@ -4,23 +4,14 @@
 
 Vorige week heb je het blogplatform Blogventure voor je vrienden Freek en Bernard opgezet. Omdat ze weten dat je geen
 tijd hebt om óók nog de backend te bouwen, hebben ze dit door iemand anders laten doen. Jij kunt alle blogposts straks
-opvragen door requests te maken naar [deze backend](https://github.com/hogeschoolnovi/frontend-fake-blog-database) (
-webAPI).
+opvragen door requests te maken naar [de NOVI Dynamic API](https://novi-backend-api-wgsgz.ondigitalocean.app/).
 
 ![logo.png](src/assets/logo-black.png)
 
 ## Applicatie starten
 
 Deze opdracht is een vervolg op [part 1](https://github.com/hogeschoolnovi/frontend-react-blog-part1), dus je kunt
-verder werken in jouw eigen project. Wel zul je de blogventure
-backend moeten clonen om er gebruik van te kunnen maken. Dit betekent dat je twee projecten tegelijkertijd aan het
-runnen bent:
-jouw Blogventure frontend en jouw Blogventure backend.
-Clone [deze backend](https://github.com/hogeschoolnovi/frontend-fake-blog-database) naar jouw eigen computer en start
-deze op
-volgens de instructies in de `README.md`. Lees de documentatie goed door, zodat je weet welke endpoints
-er beschikbaar zijn. Op basis van de volgende opdrachten zul je namelijk zelf moeten bedenken waar het request naartoe
-moet.
+verder werken in jouw eigen project. Om gebruik te maken van de NOVI Dynamic API lees je eerst even de eerste twee hoofdstukken ([Overview](https://novi-backend-api-wgsgz.ondigitalocean.app/documentation/1-Overview) en [Getting started](https://novi-backend-api-wgsgz.ondigitalocean.app/documentation/2-Getting%20Started)) van de documentatie door. Hierin wordt uitgelegd hoe je een API-key aanmaakt. Het JSON-configuratiebestand dat je kunt gebruiken voor deze opdracht, vind je hier. 
 
 ## Opdracht 1 - Oefenrequests (in de console)
 
