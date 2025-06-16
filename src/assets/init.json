@@ -1,0 +1,285 @@
+{
+  "collections": [
+    {
+      "name": "blogposts",
+      "fields": [
+        {
+          "name": "id",
+          "type": "number",
+          "required": true
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "subtitle",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "content",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "created",
+          "type": "date",
+          "required": false,
+          "default": "CurrentDate"
+        },
+        {
+          "name": "author",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "readTime",
+          "type": "number",
+          "required": true
+        },
+        {
+          "name": "readTime",
+          "type": "number",
+          "required": true
+        },
+        {
+          "name": "comments",
+          "type": "number",
+          "required": false,
+          "default": 0
+        },
+        {
+          "name": "shares",
+          "type": "number",
+          "required": false,
+          "default": 0
+        }
+      ],
+      "permissions": {
+        "GET": [
+          "anonymous",
+          "admin"
+        ],
+        "POST": [
+          "anonymous",
+          "admin"
+        ],
+        "PUT": [
+          "anonymous",
+          "admin"
+        ],
+        "PATCH": [
+          "anonymous",
+          "admin"
+        ],
+        "DELETE": [
+          "anonymous",
+          "admin"
+        ]
+      }
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "admin@blogventrue.nl",
+      "password": "admin123",
+      "roles": [
+        "admin"
+      ]
+    }
+  ],
+  "data": {
+    "blogposts": [
+      {
+        "id": 1,
+        "title": "De Smaken van Italië",
+        "subtitle": "Een culinaire reis door Bella Italia",
+        "content": "Italië, het land van heerlijke pasta, pizza en gelato, is een culinair paradijs dat elke fijnproever moet ervaren. In deze blog nemen we je mee op een smakelijke reis door Bella Italia. Ontdek de geheimen achter de perfecte risotto, leer hoe je zelfgemaakte pasta maakt en proef de verrukkelijke regionale gerechten van Noord tot Zuid. Bereid je voor om je smaakpapillen te verwennen in de keuken van de laarsvormige natie.",
+        "created": "2023-09-21T09:30:00Z",
+        "author": "Anna de Kok",
+        "readTime": 5,
+        "comments": 12,
+        "shares": 8
+      },
+      {
+        "id": 2,
+        "title": "De Pracht van Thailand",
+        "subtitle": "Een avontuurlijke reis door het land van de glimlach",
+        "content": "Thailand is een betoverend land met een rijke cultuur, adembenemende natuurlijke schoonheid en een verrukkelijke keuken. In deze blog nemen we je mee op een avontuurlijke reis door het 'Land van de Glimlach'. Verken de bruisende straten van Bangkok, ontspan op de witte zandstranden van Phuket en proef de heerlijke streetfoodgerechten die je op elke hoek van de straat vindt. Laat je inspireren om Thailand te verkennen en haar unieke schoonheid en smaken te ontdekken.",
+        "created": "2023-09-20T11:45:00Z",
+        "author": "Erik van der Reis",
+        "readTime": 7,
+        "comments": 18,
+        "shares": 10
+      },
+      {
+        "id": 3,
+        "title": "Avontuurlijke Trektochten in de Alpen",
+        "subtitle": "Ontdek de majestueuze berglandschappen",
+        "content": "De Alpen bieden enkele van de meest spectaculaire trektochtroutes ter wereld. In deze blog nemen we je mee op een avontuurlijke reis door de majestueuze berglandschappen van de Alpen. Verken pittoreske bergdorpjes, wandel door weelderige valleien en geniet van adembenemende uitzichten op besneeuwde bergtoppen. Of je nu een doorgewinterde wandelaar bent of gewoon van de natuur houdt, de Alpen bieden een onvergetelijke ervaring voor iedereen.",
+        "created": "2023-09-19T14:15:00Z",
+        "author": "Lena Bergman",
+        "readTime": 6,
+        "comments": 14,
+        "shares": 6
+      },
+      {
+        "id": 4,
+        "title": "Een Reis door de Franse Gastronomie",
+        "subtitle": "Ontdek de verfijnde smaken van la douce France",
+        "content": "Frankrijk staat wereldwijd bekend om zijn verfijnde keuken en culinaire tradities. In deze blog nemen we je mee op een gastronomische reis door la douce France. Leer over de kunst van het wijnproeven, proef heerlijke Franse kazen en ontdek de geheimen van klassieke gerechten zoals coq au vin en bouillabaisse. Bereid je voor op een smaakvolle reis door het land van de liefde voor eten.",
+        "created": "2023-09-18T10:30:00Z",
+        "author": "Sophie Leclerc",
+        "readTime": 6,
+        "comments": 20,
+        "shares": 12
+      },
+      {
+        "id": 5,
+        "title": "De Magie van Marrakech",
+        "subtitle": "Een betoverende reis door de souks en smaken van Marokko",
+        "content": "Marrakech, de 'Rode Stad', is een betoverende bestemming die je zintuigen zal prikkelen. In deze blog nemen we je mee naar de bruisende souks van Marrakech, waar je exotische kruiden, handgemaakte tapijten en traditionele ambachten kunt ontdekken. Proef de smaken van Marokkaanse gerechten zoals couscous en tajine, en verlies jezelf in de schoonheid van de oude medina. Laat je inspireren om deze magische stad te verkennen.",
+        "created": "2023-09-17T15:45:00Z",
+        "author": "Karim El-Mansour",
+        "readTime": 5,
+        "comments": 16,
+        "shares": 9
+      },
+      {
+        "id": 6,
+        "title": "De Kunst van Het Reizen Met Een Budget",
+        "subtitle": "Ontdek hoe je meer kunt reizen met minder geld",
+        "content": "Reizen hoeft niet duur te zijn. In deze blog delen we tips en trucs om de wereld te verkennen zonder je bankrekening te plunderen. Leer hoe je voordelige vluchten vindt, budgetaccommodaties boekt en lokaal kunt eten zonder de bank te breken. Met de juiste strategieën kun je meer avonturen beleven en nieuwe bestemmingen ontdekken zonder blut te raken.",
+        "created": "2023-09-16T12:00:00Z",
+        "author": "Nina de Vries",
+        "readTime": 4,
+        "comments": 10,
+        "shares": 8
+      },
+      {
+        "id": 7,
+        "title": "De Geheimen van Sushi Maken",
+        "subtitle": "Leer de kunst van Japanse sushi",
+        "content": "Sushi is veel meer dan alleen een gerecht; het is een kunstvorm. In deze blog ontdek je de geheimen achter het maken van perfecte sushi. Leer hoe je rijst bereidt, vis snijdt en sushirolletjes maakt als een echte sushi-meester. We delen ook tips voor het serveren en genieten van sushi thuis. Krijg de smaak van Japan in je eigen keuken!",
+        "created": "2023-09-15T09:30:00Z",
+        "author": "Yuki Tanaka",
+        "readTime": 6,
+        "comments": 14,
+        "shares": 7
+      },
+      {
+        "id": 8,
+        "title": "De Betovering van Bali",
+        "subtitle": "Een tropisch paradijs wacht op je",
+        "content": "Bali, het Indonesische eiland van de goden, is een betoverende bestemming die iedereen zou moeten ervaren. In deze blog nemen we je mee naar de weelderige rijstvelden, kristalheldere stranden en traditionele Balinese cultuur. Ontdek de betekenis van 'sawa-de-pertanian', ervaar de magie van de Uluwatu-tempel en proef lokale lekkernijen zoals nasi goreng. Bali wacht op je om te verkennen en te genieten van zijn onweerstaanbare charme.",
+        "created": "2023-09-14T16:15:00Z",
+        "author": "Ayu Indrawati",
+        "readTime": 7,
+        "comments": 19,
+        "shares": 11
+      },
+      {
+        "id": 9,
+        "title": "De Kunst van Desserts Maken",
+        "subtitle": "Verwen jezelf met zoete creaties",
+        "content": "Desserts zijn de kers op de taart van een heerlijke maaltijd. In deze blog leer je de kunst van het maken van verrukkelijke desserts die indruk zullen maken op je gasten. Van decadente chocoladetaarten tot luchtige soufflés, we delen recepten, technieken en tips voor het perfecte dessert. Begin met bakken en ontdek de zoete kant van koken.",
+        "created": "2023-09-13T14:45:00Z",
+        "author": "Lucas Bakker",
+        "readTime": 5,
+        "comments": 15,
+        "shares": 9
+      },
+      {
+        "id": 10,
+        "title": "Ontdekkingen in Amsterdam",
+        "subtitle": "Verken de hoofdstad van Nederland",
+        "content": "Amsterdam, de bruisende hoofdstad van Nederland, heeft veel meer te bieden dan de beroemde grachten en musea. In deze blog nemen we je mee op ontdekkingstocht door deze levendige stad. Verken verborgen hofjes, proef Nederlandse lekkernijen zoals stroopwafels en ontdek de lokale cultuur. Amsterdam wacht op je om te verkennen en te genieten van zijn unieke charme.",
+        "created": "2023-09-12T11:30:00Z",
+        "author": "Maartje de Boer",
+        "readTime": 6,
+        "comments": 13,
+        "shares": 7
+      },
+      {
+        "id": 11,
+        "title": "De Geheimen van BBQ Meesterschap",
+        "subtitle": "Word een grillkampioen in je eigen achtertuin",
+        "content": "Barbecueën is meer dan alleen vlees grillen; het is een kunst die je kunt beheersen. In deze blog onthullen we de geheimen van BBQ-meesterschap. Leer hoe je de perfecte grillmarkeringen krijgt, experimenteer met smaakvolle marinades en bereid heerlijke bijgerechten voor de ultieme BBQ-ervaring. Nodig vrienden en familie uit en word de grillkampioen van je buurt!",
+        "created": "2023-09-11T09:00:00Z",
+        "author": "Pieter Jansen",
+        "readTime": 5,
+        "comments": 11,
+        "shares": 6
+      },
+      {
+        "id": 12,
+        "title": "De Pracht van de Griekse Eilanden",
+        "subtitle": "Een reis naar het blauwe paradijs",
+        "content": "De Griekse eilanden staan bekend om hun adembenemende schoonheid en rijke geschiedenis. In deze blog nemen we je mee op een reis naar het blauwe paradijs van Griekenland. Ontdek de witgekalkte huizen van Santorini, zwem in de turquoise wateren van Mykonos en proef de authentieke Griekse keuken met moussaka en souvlaki. Laat je betoveren door de pracht van de Egeïsche Zee.",
+        "created": "2023-09-10T15:30:00Z",
+        "author": "Maria Papadopoulos",
+        "readTime": 7,
+        "comments": 17,
+        "shares": 10
+      },
+      {
+        "id": 13,
+        "title": "Ontsnap aan de Stad: Kamperen in de Natuur",
+        "subtitle": "Herontdek de rust van de wildernis",
+        "content": "Soms moet je ontsnappen aan de drukte van de stad en de rust van de natuur opzoeken. In deze blog delen we de geneugten van kamperen in de wildernis. Leer hoe je een kampvuur maakt, sterren observeert en geniet van het buitenleven. Ontdek enkele van de mooiste kampeerplekken ter wereld en herontdek de eenvoudige vreugde van de natuur.",
+        "created": "2023-09-09T12:15:00Z",
+        "author": "Jasper de Vos",
+        "readTime": 6,
+        "comments": 12,
+        "shares": 8
+      },
+      {
+        "id": 14,
+        "title": "De Magie van Koken met Kruiden",
+        "subtitle": "Verrijk je gerechten met smaakvolle kruiden",
+        "content": "Kruiden zijn de magische ingrediënten die je gerechten naar een hoger niveau tillen. In deze blog ontdek je de geheimen van koken met kruiden. Leer welke kruiden bij welke gerechten passen, hoe je je eigen kruidentuin kunt starten en proef de smaken van de wereld met diverse kruidencombinaties. Laat je smaakpapillen verleiden door de magie van kruiden.",
+        "created": "2023-09-08T10:45:00Z",
+        "author": "Sofie van den Berg",
+        "readTime": 5,
+        "comments": 14,
+        "shares": 7
+      },
+      {
+        "id": 15,
+        "title": "Verkenning van de Amazone",
+        "subtitle": "Een avontuurlijke reis door 's werelds grootste regenwoud",
+        "content": "De Amazone, 's werelds grootste regenwoud, herbergt een schat aan biodiversiteit en avontuurlijke mogelijkheden. In deze blog nemen we je mee op een epische reis door de Amazone. Verken de weelderige jungle, vaar over de machtige rivieren en ontmoet inheemse gemeenschappen. Ontdek de wonderen van de Amazone en draag bij aan haar behoud.",
+        "created": "2023-09-07T16:00:00Z",
+        "author": "Diego Rodrigues",
+        "readTime": 7,
+        "comments": 18,
+        "shares": 11
+      },
+      {
+        "id": 16,
+        "title": "De Kunst van Het Koken met Wijn",
+        "subtitle": "Wijn als geheime ingrediënt",
+        "content": "Wijn is niet alleen om te drinken; het kan ook een geheime smaakmaker zijn in je gerechten. In deze blog ontdek je de kunst van het koken met wijn. Leer welke wijnen het beste bij verschillende gerechten passen, hoe je wijn sauzen maakt en welke gerechten het best tot hun recht komen met een vleugje wijn. Laat de magie van wijn je gerechten verbeteren.",
+        "created": "2023-09-06T14:30:00Z",
+        "author": "Antonia Silva",
+        "readTime": 6,
+        "comments": 16,
+        "shares": 9
+      },
+      {
+        "id": 17,
+        "title": "Verken de Schoonheid van Kyoto",
+        "subtitle": "Een reis naar de traditionele Japanse cultuur",
+        "content": "Kyoto, de voormalige keizerlijke hoofdstad van Japan, is doordrenkt van traditionele cultuur en schoonheid. In deze blog nemen we je mee naar de betoverende straten van Kyoto. Verken oude tempels, bewonder de prachtige geishacultuur en geniet van traditionele theeceremonies. Ontdek de tijdloze schoonheid van Kyoto en reis terug in de tijd.",
+        "created": "2023-09-05T12:45:00Z",
+        "author": "Haruki Nakamura",
+        "readTime": 5,
+        "comments": 15,
+        "shares": 8
+      }
+    ]
+  }
+}
