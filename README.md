@@ -11,7 +11,7 @@ opvragen door requests te maken naar [de NOVI Dynamic API](https://novi-backend-
 ## Applicatie starten
 
 Deze opdracht is een vervolg op [part 1](https://github.com/hogeschoolnovi/frontend-react-blog-part1), dus je kunt
-verder werken in jouw eigen project. Om gebruik te maken van de NOVI Dynamic API lees je eerst even de eerste twee hoofdstukken ([Overview](https://novi-backend-api-wgsgz.ondigitalocean.app/documentation/1-Overview) en [Getting started](https://novi-backend-api-wgsgz.ondigitalocean.app/documentation/2-Getting%20Started)) van de documentatie door. Hierin wordt uitgelegd hoe je een API-key aanmaakt. Het JSON-configuratiebestand dat je kunt gebruiken voor deze opdracht, vind je hier. 
+verder werken in jouw eigen project. Om gebruik te maken van de NOVI Dynamic API lees je eerst even de eerste twee hoofdstukken ([Overview](https://novi-backend-api-wgsgz.ondigitalocean.app/documentation/1-Overview) en [Getting started](https://novi-backend-api-wgsgz.ondigitalocean.app/documentation/2-Getting%20Started)) van de documentatie door. Hierin wordt uitgelegd hoe je een API-key aanmaakt. Het JSON-configuratiebestand dat je kunt gebruiken voor deze opdracht, vind je [hier](https://github.com/hogeschoolnovi/frontend-react-blog-part2/blob/main/src/assets/bloginit.json). 
 
 ## Opdracht 1 - Oefenrequests (in de console)
 
